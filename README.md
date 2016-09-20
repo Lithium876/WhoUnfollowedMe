@@ -10,7 +10,10 @@ python poke.py [email] [password]
 You would have to check out [Twitter Apps](https://apps.twitter.com/) to be able to get your API Keys:
 '''
 CONSUMER_KEY
+
 CONSUMER_SECRET
-ACCESS_KEY    
+
+ACCESS_KEY
+
 ACCESS_SECRET
 '''
