@@ -46,13 +46,6 @@ def GetUnfollower():
 		CleanUp()
 	except:
 		print("No one unfollowed you.")
-
-def sendtweet():
-	tweet=input("tweet: ")
-	try:
-		api.update_status (status=tweet)
-	except:
-		print("Sorry, Tweet Not Sent!")
-
+		
 if __name__ == '__main__':
 	NewFollowersList()
